@@ -89,8 +89,8 @@ def get_recommendations(title, cosine_sim=cosine_sim):
     return movies_df["title"].iloc[movie_indices]
 
 # 9. Run tests
-print("################ Sistem recomandari bazat pe continut #############\n")
-print("Recomandari pentru 'The Social Network':")
-print(get_recommendations("The Social Network"))
-print("\nRecommendations for 'Warcraft':")
-print(get_recommendations("Warcraft"))
+print("################ Content Based System #############\n")
+print("Recommendations for 'The Dark Knight Rises':")
+print(get_recommendations("The Dark Knight Rises"))
+print("\nRecommendations for 'The Avengers':")
+print(get_recommendations("The Avengers"))
